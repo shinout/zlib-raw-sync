@@ -24,7 +24,7 @@
   },
   "scripts": {
     "preinstall": "node-gyp rebuild"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "http://github.com/shinout/zlib-raw-sync"
