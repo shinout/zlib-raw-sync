@@ -1,0 +1,41 @@
+{
+  "name": "zlib-raw-sync",
+  "version": "0.0.0",
+  "description": "synchronous zlib in Node>=0.8",
+  "main": "index.js",
+  "homepage": "http://github.com/shinout/zlib-raw-sync",
+  "author": "Shin Suzuki<shinout310@gmail.com>",
+  "gypfile": true,
+  "keywords": [
+    "zlib",
+    "gzip",
+    "inflate",
+    "deflate",
+    "synchronous"
+  ],
+
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "nan": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "preinstall": "node-gyp rebuild"
+  }
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/shinout/zlib-raw-sync"
+  },
+  "bugs": {
+    "url": "http://github.com/shinout/zlib-raw-sync/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/shinout/zlib-raw-sync/blob/master/MIT-LICENSE"
+    }
+  ]
+}
